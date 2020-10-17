@@ -13,20 +13,20 @@ function Home() {
                 />
 
                 <div className='home__row'>
-                    <Product title="The learn startup" price={29.99} rating={5} image='https://images-na.ssl-images-amazon.com/images/I/81-QB7nDh4L.jpg' />
-                    <Product title="Queen" price={59.99} rating={5} image='https://images-na.ssl-images-amazon.com/images/I/A1PVpROyK5L.jpg' />
+                    <Product id="123" title="The learn startup" price={29.99} rating={5} image='https://images-na.ssl-images-amazon.com/images/I/81-QB7nDh4L.jpg' />
+                    <Product id="123123" title="Queen" price={59.99} rating={5} image='https://images-na.ssl-images-amazon.com/images/I/A1PVpROyK5L.jpg' />
                 </div>
 
                 <div className='home__row'>
-                    <Product title="Queen" price={59.99} rating={5} image='https://frenchculture.org/sites/default/files/styles/huge/public/field/image/varam.jpg?itok=yLokFLzO' />
-                    <Product title="Queen" price={59.99} rating={5} image='https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcT1bLXKdm1pcJr_8Yu-GGXtpk3d1T7ErjbYUw&usqp=CAU' />
-                    <Product title="Queen" price={59.99} rating={5} image='https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcS26Y93886yipciK9swHSfyMQ74b6CSuMEEww&usqp=CAU' />
+                    <Product id="12364" title="Queen" price={59.99} rating={5} image='https://frenchculture.org/sites/default/files/styles/huge/public/field/image/varam.jpg?itok=yLokFLzO' />
+                    <Product id="1233465" title="Queen" price={59.99} rating={5} image='https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcT1bLXKdm1pcJr_8Yu-GGXtpk3d1T7ErjbYUw&usqp=CAU' />
+                    <Product id="123512" title="Queen" price={59.99} rating={5} image='https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcS26Y93886yipciK9swHSfyMQ74b6CSuMEEww&usqp=CAU' />
 
 
                 </div>
 
                 <div className='home__row'>
-                    <Product title="Queen" price={59.99} rating={5} image='https://pyxis.nymag.com/v1/imgs/069/183/388ddc58764fb03e968ba761eca7aecb78-breasts-and-eggs.rdeep-vertical.w245.jpg' />
+                    <Product id="1345" title="Queen" price={59.99} rating={5} image='https://pyxis.nymag.com/v1/imgs/069/183/388ddc58764fb03e968ba761eca7aecb78-breasts-and-eggs.rdeep-vertical.w245.jpg' />
 
                 </div>
 
