@@ -3,7 +3,7 @@ import './CheckoutProduct.css'
 import StarIcon from '@material-ui/icons/Star'
 import { useStateValue } from './StateProvider'
 
-function CheckoutProduct({ id, image, title, price, rating }) {
+function CheckoutProduct({ id, image, title, price, rating, hideButton }) {
 
     const [{ basket }, dispatch] = useStateValue()
 
@@ -27,8 +27,10 @@ function CheckoutProduct({ id, image, title, price, rating }) {
                 <div className='checkoutProduct__rating'>
                     {Array(rating).fill().map(() => (<StarIcon className="product__starIcon" />))}
                 </div>
+                {!hideButton && (
+                    <button onClick={removeFromCart}>Remove from Cart</button>
 
-                <button onClick={removeFromCart}>Remove from Cart</button>
+                )}
             </div>
         </div>
     )
