@@ -2,12 +2,12 @@ import React from 'react'
 import { Bars, Nav, NavIcon, NavLink } from './NavbarElements'
 import { BrowserRouter as Router } from 'react-router-dom'
 
-const Navbar = () => {
+const Navbar = ({ toggle }) => {
     return (
         <Router>
             <Nav>
                 <NavLink to='/'>Pizza</NavLink>
-                <NavIcon>
+                <NavIcon onClick={toggle}>
                     <p>Menu</p>
                     <Bars />
                 </NavIcon>
